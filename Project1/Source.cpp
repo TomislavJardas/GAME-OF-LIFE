@@ -86,19 +86,6 @@ void get_susjed(int& x, int& y, int poz)
 	}
 }
 
-/*bool check_life_full(int vis, int sir, bool* p2[vis][sir])
-{
-
-}
-bool check_life_half(int vis, int sir, bool* p2[vis][sir])
-{
-
-}
-bool check_life_corn(int vis, int sir, bool* p2[vis][sir])
-{
-
-}*/
-
 
 int main() {
 	//gen:
@@ -109,35 +96,6 @@ int main() {
 	/*bool p[vis][sir];*/
 
 	vector<vector<bool>> p;
-
-	/*for (unsigned i = 0; i < vis; i++)
-	{
-		for (unsigned j = 0; j < sir; j++)
-		{
-			p[i][j] = gen_rand();
-
-			if (p[0][j] || p[i][0] || p[vis-1][j] || p[i][sir-1])
-			{
-				cout << "--";
-			}
-
-
-			if (p[i][j] == 1)
-			{
-				cout << "[]";
-			}
-			else
-			{
-				cout << "--";
-			}
-			
-
-			if (j == sir - 1)
-			{
-				cout << endl;
-			}
-		}
-	}*/
 
 
 	for (int i = 0; i != sir; ++i)
